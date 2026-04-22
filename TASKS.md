@@ -8,7 +8,7 @@
 
 ## ⚡ PRE-WORK (Before any code)
 
-### TASK-00 — Project Setup & Git Init
+### TASK-1 — Project Setup & Git Init
 
 **Jira title:** `[SETUP] Laravel installation and Git repository init`
 
@@ -30,7 +30,7 @@
 
 ---
 
-### TASK-01 — Categories Migration & Model
+### TASK-2 — Categories Migration & Model
 
 **Jira title:** `[DB] Create categories migration and model`
 
@@ -53,7 +53,7 @@
 
 ---
 
-### TASK-02 — Articles Migration & Model
+### TASK-3 — Articles Migration & Model
 
 **Jira title:** `[DB] Create articles migration and model`
 
@@ -86,7 +86,7 @@
 
 ---
 
-### TASK-03 — DatabaseSeeder
+### TASK-4 — DatabaseSeeder
 
 **Jira title:** `[DB] Seed categories, blogger account, and articles`
 
@@ -109,7 +109,7 @@
 
 ---
 
-### TASK-04 — Login Routes & Controller
+### TASK-5 — Login Routes & Controller
 
 **Jira title:** `[AUTH] Create login and logout routes and controller`
 
@@ -133,7 +133,7 @@
 
 ---
 
-### TASK-05 — Login Blade View
+### TASK-6 — Login Blade View
 
 **Jira title:** `[AUTH] Build login form view`
 
@@ -158,7 +158,7 @@
 
 ---
 
-### TASK-06 — Main Layout
+### TASK-7 — Main Layout
 
 **Jira title:** `[BLADE] Create main app layout with nav`
 
@@ -176,7 +176,7 @@
 
 ---
 
-### TASK-07 — Public Article List (US1 + US3)
+### TASK-8 — Public Article List (US1 + US3)
 
 **Jira title:** `[PUBLIC] Public article list with category filter`
 
@@ -208,7 +208,7 @@
 
 ---
 
-### TASK-08 — Public Article Detail (US2)
+### TASK-9 — Public Article Detail (US2)
 
 **Jira title:** `[PUBLIC] Public article detail page`
 
@@ -239,7 +239,7 @@
 
 ---
 
-### TASK-09 — Auth Middleware Group & Dashboard Route
+### TASK-10 — Auth Middleware Group & Dashboard Route
 
 **Jira title:** `[DASHBOARD] Group dashboard routes under auth middleware`
 
@@ -261,7 +261,7 @@
 
 ---
 
-### TASK-10 — Create Article (US6)
+### TASK-11 — Create Article (US6)
 
 **Jira title:** `[CRUD] Implement create article feature`
 
@@ -304,7 +304,7 @@
 
 ---
 
-### TASK-11 — Edit Article (US7)
+### TASK-12 — Edit Article (US7)
 
 **Jira title:** `[CRUD] Implement edit article feature`
 
@@ -346,7 +346,7 @@
 
 ---
 
-### TASK-12 — Delete Article (US8)
+### TASK-13 — Delete Article (US8)
 
 **Jira title:** `[CRUD] Implement delete article with confirmation`
 
@@ -384,7 +384,7 @@
 
 ---
 
-### TASK-13 (Option A) — Pagination
+### TASK-14 (Option A) — Pagination
 
 **Jira title:** `[BONUS] Add pagination to public article list`
 
@@ -396,7 +396,7 @@
 
 ---
 
-### TASK-13 (Option B) — Reading Time
+### TASK-14 (Option B) — Reading Time
 
 **Jira title:** `[BONUS] Add estimated reading time to articles`
 
@@ -422,7 +422,7 @@
 
 ---
 
-### TASK-14 — Route Audit
+### TASK-15 — Route Audit
 
 **Jira title:** `[QA] Verify all named routes with artisan route:list`
 
@@ -435,7 +435,7 @@
 
 ---
 
-### TASK-15 — Security & Validation Audit
+### TASK-16 — Security & Validation Audit
 
 **Jira title:** `[QA] Audit CSRF, validation, and middleware protection`
 
@@ -448,7 +448,7 @@
 
 ---
 
-### TASK-16 — README.md
+### TASK-17 — README.md
 
 **Jira title:** `[DOCS] Write README with setup instructions`
 
@@ -485,7 +485,7 @@ Personal blog for a freelance developer. Public visitors can browse and filter a
 
 ---
 
-### TASK-17 — Final Git Check & Merge
+### TASK-18 — Final Git Check & Merge
 
 **Jira title:** `[GIT] Final commit count check and branch merge`
 
@@ -504,21 +504,22 @@ Personal blog for a freelance developer. Public visitors can browse and filter a
 
 | # | Jira Title | Phase | Priority |
 |---|---|---|---|
-| TASK-00 | [SETUP] Laravel installation and Git repository init | Setup | 🔴 Critical |
-| TASK-01 | [DB] Create categories migration and model | Phase 1 | 🔴 Critical |
-| TASK-02 | [DB] Create articles migration and model | Phase 1 | 🔴 Critical |
-| TASK-03 | [DB] Seed categories, blogger account, and articles | Phase 1 | 🔴 Critical |
-| TASK-04 | [AUTH] Create login and logout routes and controller | Phase 2 | 🔴 Critical |
-| TASK-05 | [AUTH] Build login form view | Phase 2 | 🔴 Critical |
-| TASK-06 | [BLADE] Create main app layout with nav | Phase 3 | 🔴 Critical |
-| TASK-07 | [PUBLIC] Public article list with category filter | Phase 3 | 🔴 Critical |
-| TASK-08 | [PUBLIC] Public article detail page | Phase 3 | 🔴 Critical |
-| TASK-09 | [DASHBOARD] Group dashboard routes under auth middleware | Phase 4 | 🔴 Critical |
-| TASK-10 | [CRUD] Implement create article feature | Phase 4 | 🔴 Critical |
-| TASK-11 | [CRUD] Implement edit article feature | Phase 4 | 🔴 Critical |
-| TASK-12 | [CRUD] Implement delete article with confirmation | Phase 4 | 🔴 Critical |
-| TASK-13 | [BONUS] Add pagination OR reading time (pick one) | Phase 5 | 🟡 Optional |
-| TASK-14 | [QA] Verify all named routes with artisan route:list | Phase 6 | 🟠 High |
-| TASK-15 | [QA] Audit CSRF, validation, and middleware protection | Phase 6 | 🟠 High |
-| TASK-16 | [DOCS] Write README with setup instructions | Phase 6 | 🟠 High |
-| TASK-17 | [GIT] Final commit count check and branch merge | Phase 6 | 🟠 High |
+| TASK-1 | [SETUP] Laravel installation and Git repository init | Setup | 🔴 Critical |
+| TASK-2 | [DB] Create categories migration and model | Phase 1 | 🔴 Critical |
+| TASK-3 | [DB] Create articles migration and model | Phase 1 | 🔴 Critical |
+| TASK-4 | [DB] Seed categories, blogger account, and articles | Phase 1 | 🔴 Critical |
+| TASK-5 | [AUTH] Create login and logout routes and controller | Phase 2 | 🔴 Critical |
+| TASK-6 | [AUTH] Build login form view | Phase 2 | 🔴 Critical |
+| TASK-7 | [BLADE] Create main app layout with nav | Phase 3 | 🔴 Critical |
+| TASK-8 | [PUBLIC] Public article list with category filter | Phase 3 | 🔴 Critical |
+| TASK-9 | [PUBLIC] Public article detail page | Phase 3 | 🔴 Critical |
+| TASK-10 | [DASHBOARD] Group dashboard routes under auth middleware | Phase 4 | 🔴 Critical |
+| TASK-11 | [CRUD] Implement create article feature | Phase 4 | 🔴 Critical |
+| TASK-12 | [CRUD] Implement edit article feature | Phase 4 | 🔴 Critical |
+| TASK-13 | [CRUD] Implement delete article with confirmation | Phase 4 | 🔴 Critical |
+| TASK-14 | [BONUS] Add pagination OR reading time (pick one) | Phase 5 | 🟡 Optional |
+| TASK-15 | [QA] Verify all named routes with artisan route:list | Phase 6 | 🟠 High |
+| TASK-16 | [QA] Audit CSRF, validation, and middleware protection | Phase 6 | 🟠 High |
+| TASK-17 | [DOCS] Write README with setup instructions | Phase 6 | 🟠 High |
+| TASK-18 | [GIT] Final commit count check and branch merge | Phase 6 | 🟠 High |
+1
